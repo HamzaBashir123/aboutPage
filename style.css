@@ -21,6 +21,14 @@ h4{
     color: rgb(134, 131, 131);
 }
 
+
+
+
+
+
+
+
+
 .mainDvi{
     padding: 60px;
     display: flex;
@@ -49,6 +57,11 @@ h4{
     max-height: 330px;
 
 }
+
+
+
+
+
 .buttons{
     display: flex;
     
@@ -96,4 +109,117 @@ button{
     color: rgb(134, 131, 131);
     font-size: large;
     
+
+    
 }
+
+
+@media only screen and (max-width: 500px) {
+    h1{
+        font-size: 30px;
+    }
+    .mainDvi{
+        padding: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        height: 800px;
+
+        
+    }
+    .picDiv{
+        width: 100%;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    .contentDiv{
+        width: 100%;
+        border-radius: 10px;
+        background-color: transparent;
+        margin-left: 0px;
+        margin-top: 0px;
+        max-height: 300px !important;
+
+    }
+    button{
+        font-size: small;
+        width: 33.333%;
+        height: 40px;
+        
+    }
+   
+    
+}
+
+/* Tablet */
+@media(min-width: 501px) and (max-width: 768px) {
+    h1{
+        font-size: 30px;
+    }
+    .mainDvi{
+        padding: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        height: 800px;
+
+        
+    }
+    .picDiv{
+        width: 100%;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    .contentDiv{
+        width: 100%;
+        border-radius: 10px;
+        background-color: white;
+        margin-left: 0px;
+        margin-top: 0px;
+        max-height: 600px !important;
+
+    }
+    button{
+        font-size: small;
+        width: 33.333%;
+        height: 40px;
+        
+    }
+   
+}
+
+/* Normal */
+@media(min-width: 769px) and (max-width: 1200px) {
+    h1{
+        font-size: 40px;
+    }
+    .mainDvi{
+        padding: 30px;
+        display: flex;
+        width: 100vw;
+
+
+        
+    }
+    .picDiv{
+        width: 100%;
+        height: 400px;
+   
+    }
+    .contentDiv{
+        width: 100%;
+        border-radius: 10px;
+        background-color: white;
+        margin-left: 30px;
+        margin-top: 0px;
+        max-height: 460px !important;
+
+    }
+    button{
+        font-size: small;
+        width: 33.333%;
+        height: 40px;
+        
+    }
+   
+}
+
+
