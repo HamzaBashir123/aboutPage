@@ -1,0 +1,99 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+    font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 70px;
+    color: rgba(0, 0, 0, 0.829);
+
+}
+h4{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: rgb(134, 131, 131);
+}
+
+.mainDvi{
+    padding: 60px;
+    display: flex;
+    /* border: 2px solid red; */
+    height: 600px;
+}
+.picDiv{
+    /* border: 2px solid green; */
+    width: 49%;
+    height: 330px;
+    border-radius: 10px;
+    
+
+
+}
+.picDiv img{
+    border-radius: 10px;
+
+}
+.contentDiv{
+    width: 49%;
+    /* border: 2px solid grey; */
+    margin-left: 30px;
+    border-radius: 10px;
+    background-color: white;
+    max-height: 330px;
+
+}
+.buttons{
+    display: flex;
+    
+    
+}
+
+
+button{
+    font-size: larger;
+    width: 33.333%;
+    height: 50px;
+    border: none;
+    background-color: #dae2ec;
+    cursor: pointer;
+}
+.hoverColor:hover{
+    color: skyblue;
+    background-color: rgba(135, 206, 250, 0.164);
+    transition: 1s all;
+    
+    
+}
+
+.bgColor{
+    background-color: transparent;
+}
+
+
+.history{
+    border-top-left-radius: 10px;
+}
+.goals{
+    border-top-right-radius: 10px;
+}
+.paragraphDiv{
+    padding: 25px;
+}
+.paraHeading{
+    letter-spacing: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.para{
+    color: rgb(134, 131, 131);
+    font-size: large;
+    
+}
